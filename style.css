@@ -22,12 +22,25 @@ body{
     border-radius: 10px;
     width: 300px;
     margin-top: 15px;
-    color: rgb(248, 106, 106);
+    color: rgb(255, 255, 255);
     font-family: georgia;
     font-weight: 555;
+}
+
+ul{
+    text-decoration: none;
 }
 
 .link:hover {
     font-size: 30px;
     text-decoration: underline;
 }
+    
+    canvas{
+        border-radius: 20px;
+        background-color: aliceblue;
+        border: ridge;
+        box-shadow: 10px 10px 10px grey;
+        margin-top: 20px;
+    }
+    

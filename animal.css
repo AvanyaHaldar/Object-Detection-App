@@ -1,0 +1,32 @@
+.heading{
+    font-size: 28px;
+    width: 100%;
+    margin-top: 0;
+    font-family: algerian;
+    
+    }
+    body{
+        background-size: cover;
+    }
+    a{
+        font-size: 30px;
+        float: right;
+        border:2px solid whitesmoke;
+        background-color: azure;
+        margin-top: 10px;
+        margin-right:20px;
+    }
+    
+    #status{
+    background-color: rgb(247, 84, 84);
+    font-weight: bold;
+    font-size: 20px;
+    }
+    
+    canvas{
+        border-radius: 20px;
+        border: ridge;
+        box-shadow: 10px 10px 10px rgb(255, 145, 0);
+        margin-top: 20px;
+    }
+    

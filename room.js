@@ -8,7 +8,7 @@ function setup() {
 }
 
 function preload() {
-  img = loadImage("Fruits.jpg");
+  img = loadImage("room.jpg");
 }
 function draw() {
   image(img, 0, 0, 700, 450);
@@ -16,11 +16,11 @@ function draw() {
     for (i = 0; i < objects.length; i++) {
       document.getElementById("status").innerHTML = "Status : Objects Detected";
       percent = Math.floor(objects[i].confidence * 100);
-      fill("blue");
+      fill("magenta");
       text(objects[i].label + " " + percent + " %", objects[i].x, objects[i].y);
       noFill();
+      stroke("magenta");
       textSize(18);
-      stroke("blue");
       rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
 
     }
